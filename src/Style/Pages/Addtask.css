@@ -1,0 +1,26 @@
+
+.task-zone{
+    
+    margin-left: 120px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.task-zone input{
+    width: 60%;
+    height: 25px;
+    padding: 7px;
+    border-radius: 10px;
+
+}
+.task-zone button{
+    width: 25%;
+    height: 41px;
+    padding: 7px;
+    font-size: large;
+    color: white;
+    background-color: rgb(91, 117, 246);
+    border-radius: 10px;
+    cursor: pointer;
+
+}

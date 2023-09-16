@@ -1,11 +1,24 @@
 .App {
+  display: flex;
+  justify-content: center;
   text-align: center;
+
+  gap: 20px;
+  color: tomato;
+
+}
+.App a{
+  text-decoration: none;
+  font-size: 14px;
+  transition: font-size 0.2s 0.3s;
+  font-weight: 600;
+  color: chocolate;
+}
+.App a:hover{
+  font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
