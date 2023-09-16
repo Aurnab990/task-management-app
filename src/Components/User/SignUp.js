@@ -8,7 +8,8 @@ const SignUp = () => {
         username: "",
         email: "",
         password: "",
-        bio: ""
+        bio: "",
+        imageUrl: ""
 });
 
 
@@ -42,6 +43,14 @@ const SignUp = () => {
                         value={input.name}
                         onChange={(e)=>setInput({...input, [e.target.name]: e.target.value})}
                         type="text" placeholder="Bio under 20 words" required />
+                        <input
+                            name="imageUrl"
+                            value={input.imageUrl}
+                            onChange={(e) => setInput({ ...input, [e.target.name]: e.target.value })}
+                            type="text"
+                            placeholder="Image URL"
+                        />
+                        
                         <button onClick={() => handleSignup}>Sign up</button>
                         <p class="message">Already registered? <Link to={'/'}>Sign in</Link></p>
                     </form>

@@ -9,7 +9,7 @@ const Home = () => {
         <div className='home-section'>
             <Navbar></Navbar>
             <div class="card">
-                <div class="image"></div>
+                <img src={newusername.imageUrl}></img>
                 <div class="content">               
                         <span class="title">
                             User Name: {newusername.username}
